@@ -1,0 +1,40 @@
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: rgb(49, 0, 128);
+  }
+  .ul1
+{
+ 
+    list-style-type: none;
+    margin: 0px;
+    padding: 12px;
+    font-size: 20px;
+    overflow:auto;
+    background-color: rgb(32, 158, 63);
+    max-width: auto;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    
+    
+  
+}
+body
+{background-color: lightblue;}
+#login{float: right;}
+footer{
+  text-align: center;
+  color: blue;
+}

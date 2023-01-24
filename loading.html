@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Effect</title>
+    <style>
+        *{margin: 0%;}
+body{
+display: flex;
+width: 100vw;
+height: 100vh;
+background: black;
+align-items: center;
+justify-content: center;
+
+}
+div{
+text-align: center;
+
+}
+p{
+display: inline-block;
+text-transform: uppercase;
+text-align: center;
+font-size: 4em;
+font-family: 'poppins';
+font-weight: 600;
+transform: scale(.5);
+color:#121212 ;
+-webkit-text-stroke: 2px grey;
+}
+p:nth-child(1){
+ animation: var(hover 1 linear infinite);   
+}
+
+p :nth-child(2){
+    animation:var(hover 1s linear infinites).75s ;
+}
+p :nth-child(3){
+    animation:var(hover 1s linear infinites).75s ;
+}
+p :nth-child(4){
+    animation:var(hover 1s linear infinites).75s ;
+}
+p :nth-child(5){
+    animation:var(hover 1s linear infinites).75s ;
+}
+p :nth-child(6){
+    animation:var(hover 1s linear infinites).75s ;
+}
+p :nth-child(7){
+    animation:var(hover 1s linear infinites).75s ;
+}
+@keyframes hover{
+0%{
+    transform: scale(.5);
+color: #121212;
+-webkit-text-stroke: 2px gray;
+}
+20%{
+transform: scale(1);
+color: pink;
+-webkit-text-stroke: 3px red;
+filter: drop-shadow(0 0 1px);
+}
+}
+
+
+    </style>
+</head>
+<body>
+    <div>
+<p>l</p>
+<p>o</p>
+<p>a</p>
+<p>d</p>
+<p>i</p>
+<p>n</p>
+<p>g</p>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+.btn{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "roboto";
+}
+.container{
+display: flex;
+justify-content: right;
+align-items: left;   
+min-height: 10vh;
+}
+.btn{
+  padding: 15px 20px;  
+   background-color: green; 
+   color: #fff;
+   border-radius: 3px;
+}
+.btn:hover{
+
+    background:  linear-gradient(90deg,#00C0FF 0%,
+                                         #FFCF00 49%,    
+                                         #FC4F4F 80%,
+                                         #00C0FF 100% );
+    animation: slide 5s linear infinite                                 
+}
+
+@keyframes slide {
+    to {
+        background-position: 20vw;
+    } 
+}
